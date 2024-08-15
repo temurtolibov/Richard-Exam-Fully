@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/gothic-a1-v13-latin-regular.woff2") format("woff2");
+}
+
+body {
+  font-family: "Gothic A1";
+  font-weight: 400;
+}
+
+header {
+  background: linear-gradient(
+    98deg,
+    rgba(207, 0, 99, 1) 0%,
+    rgba(60, 12, 65, 1) 100%,
+    rgba(69, 14, 75, 1) 100%
+  );
+}
+
+ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  background-color: #fc0a7e;
+  color: white;
+  cursor: pointer;
+}
+
+.head-text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  color: white;
+}
+
+.head-text p {
+  font-size: 30px;
+  line-height: 44px;
+  color: white;
+  width: 677px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.head-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.head-main img {
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+.section-1 {
+  background-color: #1b1b1b;
+}
+
+.page2-txt p {
+  color: #a8a8a8;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.page2-txt {
+  position: relative;
+}
+
+.page2-txt h2 {
+  color: white;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  width: 607px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 340px;
+  padding-top: 25px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  margin: 0 242px 0 202px;
+  column-gap: 195px;
+  padding-bottom: 160px;
+}
+
+.block-text {
+  width: 306px;
+}
+
+.forward {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.aenean {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #a8a8a8;
+  text-transform: uppercase;
+}
+
+.block-text h3 {
+  font-size: 38px;
+  line-height: 48px;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 22px;
+}
+
+.Lorem {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+
+.not-text {
+  width: 371px;
+  text-align: center;
+}
+
+.not-text h3 {
+  padding-top: 40px;
+  padding-bottom: 17px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.not-text p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+
+.not-block img {
+  position: relative;
+  left: 150px;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  column-gap: 170px;
+  margin-top: 160px;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.info-block {
+  width: 324px;
+}
+
+.info-block p {
+  font-size: 59px;
+  line-height: 90px;
+  color: #333333;
+}
+
+.info-block h4 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.risus-text {
+  width: 330px;
+}
+
+.lorem a {
+  color: black;
+}
+
+.risus-text h3 {
+  font-size: 38px;
+  line-height: 48px;
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+
+.risus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+  column-gap: 100px;
+}
+
+.undov {
+  position: relative;
+  left: 630px;
+  margin-top: 160px;
+}
+
+.undov-text {
+  text-align: center;
+  width: 700px;
+  font-size: 24px;
+  line-height: 40px;
+  color: #6b6b6b;
+  position: relative;
+  left: 300px;
+  font-family: "Gothic A1";
+  margin-top: 63px;
+}
+
+.layout {
+  width: 30px;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+.names p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+
+.names h5 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #6b6b6b;
+  font-weight: 700px;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 18px;
+}
+
+.span1 {
+  width: 7px;
+  height: 7px;
+  background-color: #222222;
+}
+
+.span2 {
+  width: 7px;
+  height: 7px;
+  background-color: #222222;
+  opacity: 0.4;
+}
+
+.spans {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin-top: 66px;
+}
+
+.brands {
+  position: relative;
+  left: 150px;
+  margin-top: 121px;
+}
+
+.ready {
+  padding-top: 165px;
+  text-align: center;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.section-7 {
+  background-color: #1b1b1b;
+  color: aliceblue;
+}
+
+.updates {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 129px;
+}
+
+.alert {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #6b6b6b;
+  padding-top: 20px;
+}
+
+.input {
+  border: none;
+  height: 70px;
+  padding: 22px 155px 22px 3px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.subscribe {
+  padding: 22px 30px;
+  height: 70px;
+  border-radius: 0;
+  color: black;
+}
+
+.r-img {
+  position: relative;
+  left: 590px;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  padding-bottom: 40px;
+}
+
+.footer li a {
+  color: #6b6b6b;
+  position: relative;
+  left: 320px;
+}
+
+.section-6 {
+  padding-bottom: 155px;
+  background-image: url("../images/bg-wave.png"),
+    linear-gradient(276.18deg, #6e28b1 0%, #fc0a7e);
+}
+
+.ready {
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  padding-top: 45px;
+}
+
+.get {
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  border-radius: 0;
+}
